@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trabajo Social + DIF Tapachula | Feria Profesiografica</title>
+  <meta name="description" content="Landing premium e interactiva sobre la carrera de Trabajo Social y el Sistema DIF en Tapachula, Chiapas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ["Inter", "system-ui", "sans-serif"] },
+          colors: {
+            ink: "#061228",
+            night: "#091a3a",
+            neon: "#68e8ff",
+            iris: "#8b5cf6",
+            signal: "#18d7a7"
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="loader" class="loader">
+    <div class="loader-ring"></div>
+    <p>Activando impacto social</p>
+  </div>
+
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div id="particles-js" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a href="#hero" class="brand" aria-label="Inicio">
+      <span class="brand-mark">TS</span>
+      <span>Trabajo Social <strong>DIF Tapachula</strong></span>
+    </a>
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <i data-lucide="menu"></i>
+    </button>
+    <nav class="nav-links">
+      <a href="#carrera">Carrera</a>
+      <a href="#perfiles">Perfiles</a>
+      <a href="#dif">DIF</a>
+      <a href="#quiz">Test</a>
+      <a href="#ubicacion">Ubicacion</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero section-band">
+      <div class="hero-media" aria-hidden="true"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <div class="eyebrow" data-aos="fade-down">Feria profesiografica 2026</div>
+        <h1 class="hero-title">
+          Trabajo Social: <span>Cambiando vidas, transformando el futuro</span>
+        </h1>
+        <p class="hero-subtitle">
+          Una carrera para quienes sienten, piensan y actuan: defender derechos,
+          acompanar familias y disenar soluciones humanas para comunidades reales.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary magnetic" href="#carrera">Explorar Carrera</a>
+          <a class="btn btn-secondary magnetic" href="#dif">Conocer el DIF</a>
+        </div>
+        <div class="hero-metrics">
+          <div><strong>1977</strong><span>DIF Nacional</span></div>
+          <div><strong>360</strong><span>Vision social</span></div>
+          <div><strong>24/7</strong><span>Vocacion humana</span></div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#carrera" aria-label="Bajar a la siguiente seccion">
+        <span></span>
+      </a>
+    </section>
+
+    <section id="carrera" class="section section-intro">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="kicker">La carrera</p>
+        <h2>Una profesion para leer la realidad y moverla hacia la justicia.</h2>
+        <p>
+          El Trabajo Social nacio de los movimientos de asistencia, reforma social
+          y organizacion comunitaria; hoy combina investigacion, derechos humanos,
+          intervencion familiar y politicas publicas.
+        </p>
+      </div>
+      <div class="feature-grid">
+        <article class="glass-card tilt-card" data-aos="zoom-in">
+          <i data-lucide="history"></i>
+          <h3>Historia</h3>
+          <p>De la ayuda organizada a una disciplina profesional con metodos, diagnostico social y enfoque de derechos.</p>
+        </article>
+        <article class="glass-card tilt-card" data-aos="zoom-in" data-aos-delay="100">
+          <i data-lucide="scan-heart"></i>
+          <h3>Que es</h3>
+          <p>Una carrera que acompana personas, familias y comunidades para resolver necesidades sociales complejas.</p>
+        </article>
+        <article class="glass-card tilt-card" data-aos="zoom-in" data-aos-delay="200">
+          <i data-lucide="hand-heart"></i>
+          <h3>Importancia</h3>
+          <p>Conecta instituciones con personas vulnerables y convierte la empatia en acciones medibles.</p>
+        </article>
+        <article class="glass-card tilt-card" data-aos="zoom-in" data-aos-delay="300">
+          <i data-lucide="sparkles"></i>
+          <h3>Impacto</h3>
+          <p>Fortalece redes, promueve inclusion y ayuda a que mas personas accedan a una vida digna.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="perfiles" class="section split-section">
+      <div class="section-heading compact" data-aos="fade-up">
+        <p class="kicker">Tu ruta</p>
+        <h2>Perfil de ingreso y egreso</h2>
+      </div>
+      <div class="profile-grid">
+        <article class="profile-panel glass-card" data-aos="fade-right">
+          <div class="panel-title"><i data-lucide="user-round-plus"></i><h3>Perfil de ingreso</h3></div>
+          <p>Ideal si tienes sensibilidad social, escucha activa, curiosidad por entender problemas humanos y gusto por el trabajo en equipo.</p>
+          <div class="skill-bars">
+            <span>Empatia <b style="--w:95%"></b></span>
+            <span>Comunicacion <b style="--w:88%"></b></span>
+            <span>Analisis social <b style="--w:76%"></b></span>
+            <span>Vocacion de servicio <b style="--w:92%"></b></span>
+          </div>
+        </article>
+        <article class="profile-panel glass-card" data-aos="fade-left">
+          <div class="panel-title"><i data-lucide="graduation-cap"></i><h3>Perfil de egreso</h3></div>
+          <p>Al egresar podras diagnosticar realidades sociales, gestionar proyectos, intervenir con familias y defender derechos humanos.</p>
+          <div class="skill-bars">
+            <span>Investigacion <b style="--w:86%"></b></span>
+            <span>Intervencion familiar <b style="--w:91%"></b></span>
+            <span>Gestion institucional <b style="--w:83%"></b></span>
+            <span>Etica profesional <b style="--w:97%"></b></span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section philosophy">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="kicker">Identidad profesional</p>
+        <h2>Filosofia, mision, vision y valores</h2>
+      </div>
+      <div class="quad-grid">
+        <article class="neo-card" data-aos="flip-left"><i data-lucide="compass"></i><h3>Filosofia</h3><p>Ver a cada persona como sujeto de derechos, no como problema.</p></article>
+        <article class="neo-card" data-aos="flip-left" data-aos-delay="100"><i data-lucide="target"></i><h3>Mision</h3><p>Intervenir con conocimiento, sensibilidad y estrategia para mejorar condiciones de vida.</p></article>
+        <article class="neo-card" data-aos="flip-left" data-aos-delay="200"><i data-lucide="telescope"></i><h3>Vision</h3><p>Comunidades mas justas, incluyentes y participativas.</p></article>
+        <article class="neo-card" data-aos="flip-left" data-aos-delay="300"><i data-lucide="gem"></i><h3>Valores</h3><p>Empatia, respeto, honestidad, justicia social, confidencialidad y responsabilidad.</p></article>
+      </div>
+    </section>
+
+    <section id="oferta" class="section">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="kicker">Oferta educativa</p>
+        <h2>Opciones para estudiar Trabajo Social</h2>
+        <p>Elige una ruta local, estatal, nacional o internacional segun tus posibilidades, becas y proyecto de vida.</p>
+      </div>
+      <div class="university-grid">
+        <article class="university-card" data-aos="fade-up"><span>U</span><h3>Nivel local</h3><p>Instituciones de Tapachula y la region Soconusco con programas afines a ciencias sociales, salud comunitaria y desarrollo humano.</p></article>
+        <article class="university-card" data-aos="fade-up" data-aos-delay="100"><span>CH</span><h3>Estatal</h3><p>Universidades en Chiapas con formacion social, psicologia, pedagogia, derecho, gestion publica y trabajo comunitario.</p></article>
+        <article class="university-card" data-aos="fade-up" data-aos-delay="200"><span>MX</span><h3>Nacional</h3><p>Programas reconocidos en universidades publicas y privadas de Mexico, incluyendo modalidades escolarizadas y mixtas.</p></article>
+        <article class="university-card" data-aos="fade-up" data-aos-delay="300"><span>GL</span><h3>Internacional</h3><p>Opciones de intercambio, voluntariado, derechos humanos, migracion y desarrollo comunitario en America Latina y otros paises.</p></article>
+      </div>
+    </section>
+
+    <section id="plan" class="section roadmap-section">
+      <div class="section-heading compact" data-aos="fade-up">
+        <p class="kicker">Plan de estudios</p>
+        <h2>Roadmap academico</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-right"><span>01</span><h3>Bases sociales</h3><p>Sociologia, historia social, economia, comunicacion y realidad regional.</p></div>
+        <div class="timeline-item" data-aos="fade-left"><span>02</span><h3>Persona y familia</h3><p>Psicologia, desarrollo humano, dinamica familiar y salud comunitaria.</p></div>
+        <div class="timeline-item" data-aos="fade-right"><span>03</span><h3>Derechos e investigacion</h3><p>Derechos humanos, legislacion social, estadistica e investigacion social.</p></div>
+        <div class="timeline-item" data-aos="fade-left"><span>04</span><h3>Intervencion</h3><p>Desarrollo comunitario, gestion de proyectos, trabajo con grupos y practica institucional.</p></div>
+        <div class="timeline-item" data-aos="fade-right"><span>05</span><h3>Especializacion</h3><p>Politicas publicas, migracion, discapacidad, infancia, adulto mayor y evaluacion de programas.</p></div>
+      </div>
+    </section>
+
+    <section id="campo" class="section labor-section">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="kicker">Campo laboral</p>
+        <h2>Donde puede trabajar una persona profesional en Trabajo Social</h2>
+      </div>
+      <div class="labor-grid">
+        <article><i data-lucide="hospital"></i><span>Hospitales</span></article>
+        <article><i data-lucide="heart-handshake"></i><span>DIF</span></article>
+        <article><i data-lucide="school"></i><span>Escuelas</span></article>
+        <article><i data-lucide="badge-help"></i><span>ONG</span></article>
+        <article><i data-lucide="landmark"></i><span>Gobierno</span></article>
+        <article><i data-lucide="users-round"></i><span>Centros comunitarios</span></article>
+      </div>
+      <div class="stats-grid">
+        <div class="stat glass-card"><strong data-counter="1200">0</strong><span>acciones sociales simuladas</span></div>
+        <div class="stat glass-card"><strong data-counter="6">0</strong><span>areas de trabajo</span></div>
+        <div class="stat glass-card"><strong data-counter="100">0</strong><span>enfoque humano</span></div>
+        <div class="stat glass-card"><strong data-counter="365">0</strong><span>dias de servicio</span></div>
+      </div>
+    </section>
+
+    <section id="etica" class="section manifesto">
+      <div data-aos="fade-up">
+        <p class="kicker">Codigo etico</p>
+        <h2>El poder de ayudar exige responsabilidad.</h2>
+      </div>
+      <div class="manifesto-list">
+        <span>Honestidad</span>
+        <span>Empatia</span>
+        <span>Justicia social</span>
+        <span>Respeto</span>
+        <span>Responsabilidad</span>
+        <span>Confidencialidad</span>
+      </div>
+    </section>
+
+    <section id="dif" class="section dif-section">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="kicker">DIF Tapachula</p>
+        <h2>Una institucion que acompana a familias y grupos vulnerables.</h2>
+        <p>
+          El Sistema DIF trabaja para fortalecer el bienestar familiar, la asistencia social,
+          la proteccion de la infancia, la inclusion de personas con discapacidad y la atencion
+          a sectores en situacion de vulnerabilidad.
+        </p>
+      </div>
+      <div class="dif-grid">
+        <article class="glass-card" data-aos="fade-up"><i data-lucide="book-open"></i><h3>Historia</h3><p>El DIF Nacional se consolido en 1977 y los sistemas estatales y municipales acercan la asistencia social a cada territorio.</p></article>
+        <article class="glass-card" data-aos="fade-up" data-aos-delay="100"><i data-lucide="shield-check"></i><h3>Mision</h3><p>Impulsar bienestar familiar, prevenir riesgos y proteger a quienes requieren atencion inmediata.</p></article>
+        <article class="glass-card" data-aos="fade-up" data-aos-delay="200"><i data-lucide="eye"></i><h3>Vision</h3><p>Un Tapachula mas incluyente, sensible y coordinado para cuidar a la poblacion vulnerable.</p></article>
+        <article class="glass-card" data-aos="fade-up" data-aos-delay="300"><i data-lucide="activity"></i><h3>Que hace</h3><p>Canalizacion, apoyo familiar, rehabilitacion, grupos vulnerables, infancia, adulto mayor y programas comunitarios.</p></article>
+      </div>
+    </section>
+
+    <section id="ubicacion" class="section location-section">
+      <div class="section-heading compact" data-aos="fade-up">
+        <p class="kicker">Ubicacion</p>
+        <h2>Referencia en Tapachula</h2>
+      </div>
+      <div class="location-grid">
+        <div class="location-photo" data-aos="fade-right">
+          <img src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=1200&q=85" alt="Equipo de apoyo social trabajando en comunidad" />
+          <div>
+            <strong>DIF Municipal Tapachula</strong>
+            <span>Decima Novena Poniente No. 0, Col. 5 de Febrero, C.P. 30710, Tapachula de Cordova y Ordonez, Chiapas. Tel. 962 625 0522.</span>
+          </div>
+        </div>
+        <div class="map-card" data-aos="fade-left">
+          <iframe title="Mapa DIF Tapachula" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Decima%20Novena%20Poniente%20Colonia%205%20de%20Febrero%20DIF%20Tapachula%20Chiapas&output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="section gallery-section">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="kicker">Galeria interactiva</p>
+        <h2>Historias que se sienten cercanas</h2>
+      </div>
+      <div class="swiper gallery-swiper" data-aos="zoom-in">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=1200&q=85" alt="Voluntariado y apoyo comunitario" /></div>
+          <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?auto=format&fit=crop&w=1200&q=85" alt="Jovenes colaborando en comunidad" /></div>
+          <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=1200&q=85" alt="Equipo profesional en orientacion" /></div>
+          <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=1200&q=85" alt="Apoyo social y solidaridad" /></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <button class="swiper-button-prev" aria-label="Imagen anterior"></button>
+        <button class="swiper-button-next" aria-label="Imagen siguiente"></button>
+      </div>
+    </section>
+
+    <section id="quiz" class="section quiz-section">
+      <div class="quiz-card glass-card" data-aos="fade-up">
+        <p class="kicker">Test vocacional</p>
+        <h2>Trabajo Social es para ti?</h2>
+        <p class="quiz-result" id="quizResult">Responde y descubre tu nivel de afinidad.</p>
+        <div class="quiz-options">
+          <label><input type="checkbox" value="25" /> Me gusta escuchar y orientar a otras personas.</label>
+          <label><input type="checkbox" value="25" /> Me interesa defender derechos y promover justicia social.</label>
+          <label><input type="checkbox" value="20" /> Me veo trabajando en escuelas, hospitales, DIF u ONG.</label>
+          <label><input type="checkbox" value="15" /> Me gusta investigar problemas y proponer soluciones.</label>
+          <label><input type="checkbox" value="15" /> Tengo paciencia para acompanar procesos humanos.</label>
+        </div>
+        <button class="btn btn-primary" id="quizButton">Ver resultado</button>
+      </div>
+    </section>
+
+    <section class="section motivation">
+      <div class="quote-wall" data-aos="zoom-in">
+        <h2>"Ayudar no es solo sentir compasion: es prepararte para cambiar sistemas, abrir puertas y devolver esperanza."</h2>
+        <p>Trabajo Social convierte tu sensibilidad en accion profesional.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <h2>Trabajo Social + DIF Tapachula</h2>
+      <p>Proyecto escolar de orientacion vocacional con enfoque social, etico y comunitario.</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://www.difchiapas.gob.mx/" target="_blank" rel="noopener">DIF Chiapas</a>
+      <a href="https://www.gob.mx/difnacional" target="_blank" rel="noopener">DIF Nacional</a>
+      <a href="https://www.tapachula.gob.mx/" target="_blank" rel="noopener">Ayuntamiento</a>
+      <a href="#hero">Volver arriba</a>
+    </div>
+    <div class="socials" aria-label="Redes sociales">
+      <a href="https://www.difchiapas.gob.mx/" target="_blank" rel="noopener" aria-label="Sitio DIF Chiapas"><i data-lucide="globe-2"></i></a>
+      <a href="https://www.tapachula.gob.mx/" target="_blank" rel="noopener" aria-label="Ayuntamiento de Tapachula"><i data-lucide="building-2"></i></a>
+      <a href="#" aria-label="Correo"><i data-lucide="mail"></i></a>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button aria-label="Cerrar galeria" id="closeLightbox"><i data-lucide="x"></i></button>
+    <img src="" alt="Imagen ampliada" />
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
