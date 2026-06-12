@@ -125,7 +125,11 @@ if (window.gsap && window.ScrollTrigger) {
   });
 }
 
-gsap.utils.toArray(".tilt-card, .neo-card, .university-card").forEach((card) => {
+const interactiveCards = window.gsap
+  ? gsap.utils.toArray(".tilt-card, .neo-card, .university-card")
+  : qsa(".tilt-card, .neo-card, .university-card");
+
+interactiveCards.forEach((card) => {
   card.addEventListener("pointermove", (event) => {
     const rect = card.getBoundingClientRect();
     const x = event.clientX - rect.left;
@@ -193,7 +197,7 @@ if (window.ScrollTrigger) {
 
 if (window.Swiper) {
   new Swiper(".gallery-swiper", {
-    loop: false,
+    loop: true,
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: 1,
@@ -241,7 +245,7 @@ qs("#quizButton")?.addEventListener("click", () => {
   } else if (score >= 50) {
     result.textContent = `Afinidad ${score}%: hay una base interesante. Explora voluntariado, entrevistas y visitas a instituciones como el DIF.`;
   } else {
-    result.textContent = `Afinidad ${score}%: aun puedes explorar. Trabajo Social exige escucha, compromiso y gusto por resolver problemas humanos.`;
+    result.textContent = `Afinidad ${score}%: aún puedes explorar. Trabajo Social exige escucha, compromiso y gusto por resolver problemas humanos.`;
   }
   if (window.gsap) {
     gsap.fromTo(result, { y: 12, opacity: 0 }, { y: 0, opacity: 1, duration: 0.45 });
